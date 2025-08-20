@@ -85,7 +85,7 @@ function About() {
         <div className="container">
           <h2>Founded by Nigerians, for Nigerians</h2>
           <p>
-            SkillLink was created by <strong>Terry & Ian Nnamani</strong> — brothers from Lagos who’ve seen firsthand the untapped talent in their community.
+            SkillLink was created by <strong>ian & Terry Nnamani</strong> — brothers from Lagos who’ve seen firsthand the untapped talent in their community.
           </p>
           <p>
             We believe every skilled worker deserves a digital presence, a fair chance, and the dignity of being seen.

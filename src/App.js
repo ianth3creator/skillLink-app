@@ -85,7 +85,7 @@ function App() {
                 {/* Footer */}
                 <footer className="footer">
                   <p className="footer-text">
-                    © 2025 SkillLink | Designed by the terry and ian nnamani
+                    © 2025 SkillLink | Designed by the Ian and Terry nnamani
                   </p>
                   <div className="social-icons">
                     <a
