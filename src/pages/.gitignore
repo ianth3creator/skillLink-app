@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+build/
+
+# Environment variables
+.env.local
+.env
+
+# Vercel
+.vercel
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

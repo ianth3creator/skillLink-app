@@ -1,0 +1,353 @@
+/* src/pages/About.css - Unified, Mobile-First, 320px+ Optimized */
+
+/* ===== Container & Layout ===== */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* ===== Hero Section ===== */
+.about-hero {
+  background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+  color: white;
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #FFFFFF;
+  color: #1E40AF;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #f0f9ff;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-left: 1rem;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cta-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* ===== Sections: Mission, Vision, Team ===== */
+.mission,
+.problem-solution,
+.vision,
+.team,
+.investor-cta,
+.about-footer {
+  padding: 4rem 0;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mission h2,
+.problem-solution h2,
+.vision h2,
+.team h2,
+.investor-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111827;
+  line-height: 1.3;
+}
+
+/* ===== Problem & Solution Split ===== */
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.split .block {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.split .block h3 {
+  font-size: 1.4rem;
+  color: #1E40AF;
+  margin-bottom: 1rem;
+}
+
+.split ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.split ul li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: #4B5563;
+  font-size: 0.95rem;
+}
+
+.split ul li::before {
+  content: "•";
+  color: #3B82F6;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* ===== Vision Quote ===== */
+.vision-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  color: #1E40AF;
+  margin: 2rem 0;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
+/* ===== Team Section ===== */
+.team p {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* ===== Investor CTA ===== */
+.investor-cta {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+}
+
+.investor-cta h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.investor-cta p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* ===== Back Button ===== */
+.about-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #f3f4f6;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-back:hover {
+  background-color: #e5e7eb;
+  border-color: #9ca3af;
+  transform: translateY(-2px);
+}
+
+/* ✅ MOBILE-FIRST: 320px+ Optimization */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .about-hero {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1.1rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .mission h2,
+  .problem-solution h2,
+  .vision h2,
+  .team h2,
+  .investor-cta h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .split {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .split .block {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 0.5rem;
+  }
+
+  .vision-quote {
+    font-size: 1.1rem;
+    padding: 0 0.75rem;
+  }
+
+  .team p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .investor-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .investor-cta p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .btn-back {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.25rem;
+  }
+
+  .cta-group {
+    margin-top: 1rem;
+  }
+}
+
+/* ✅ EXTRA SMALL: 320px–480px */
+@media (max-width: 480px) {
+  .container {
+    padding: 1.25rem;
+  }
+
+  .about-hero {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+  }
+
+  .mission,
+  .problem-solution,
+  .vision,
+  .team,
+  .investor-cta,
+  .about-footer {
+    padding: 3rem 0;
+  }
+
+  .mission h2,
+  .problem-solution h2,
+  .vision h2,
+  .team h2,
+  .investor-cta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .vision-quote {
+    font-size: 1.05rem;
+    padding: 0 0.75rem;
+  }
+
+  .team p {
+    font-size: 0.95rem;
+  }
+
+  .investor-cta p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .btn-back {
+    font-size: 0.9rem;
+    padding: 0.65rem 1.15rem;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.15rem;
+  }
+
+  .btn-secondary {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .cta-group {
+    flex-direction: column;
+    align-items: center;
+  }
+}
